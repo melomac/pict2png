@@ -21,7 +21,7 @@ int main(int argc, const char *argv[])
 			return EXIT_FAILURE;
 		}
 		
-		
+		/*
 		NSPICTImageRep *pict = [[NSPICTImageRep alloc] initWithData:data];
 		
 		if (!pict)
@@ -45,9 +45,9 @@ int main(int argc, const char *argv[])
 			
 			return EXIT_FAILURE;
 		}
+		*/
 		
-		
-		NSBitmapImageRep *bitmap = [[NSBitmapImageRep alloc] initWithData:tiff];
+		NSBitmapImageRep *bitmap = [[NSBitmapImageRep alloc] initWithData:data];
 		
 		NSData *png = [bitmap representationUsingType:NSPNGFileType properties:nil];
 		

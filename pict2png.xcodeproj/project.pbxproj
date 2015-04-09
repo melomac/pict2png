@@ -25,7 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		44BDD97219A225F7007E289B /* pict2png */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = pict2png; sourceTree = BUILT_PRODUCTS_DIR; };
+		44BDD97219A225F7007E289B /* paint2png */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = paint2png; sourceTree = BUILT_PRODUCTS_DIR; };
 		44BDD97519A225F7007E289B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		44BDD97819A225F7007E289B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		44BDD97B19A225F7007E289B /* pict2png-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pict2png-Prefix.pch"; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 		44BDD97319A225F7007E289B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				44BDD97219A225F7007E289B /* pict2png */,
+				44BDD97219A225F7007E289B /* paint2png */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,7 +105,7 @@
 			);
 			name = pict2png;
 			productName = pict2png;
-			productReference = 44BDD97219A225F7007E289B /* pict2png */;
+			productReference = 44BDD97219A225F7007E289B /* paint2png */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -214,7 +214,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "pict2png/pict2png-Prefix.pch";
-				PRODUCT_NAME = pict2png;
+				PRODUCT_NAME = paint2png;
 			};
 			name = Debug;
 		};
@@ -223,7 +223,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "pict2png/pict2png-Prefix.pch";
-				PRODUCT_NAME = pict2png;
+				PRODUCT_NAME = paint2png;
 			};
 			name = Release;
 		};
@@ -246,6 +246,7 @@
 				44BDD98219A225F7007E289B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
