@@ -5,7 +5,7 @@ int main(int argc, const char *argv[])
 {
 	if (argc != 3)
 	{
-		fprintf(stderr, "Usage: pict2png image.pict image.png\n");
+		fprintf(stderr, "Usage: paint2png image.macpaint image.png\n");
 		
 		return EXIT_FAILURE;
 	}
