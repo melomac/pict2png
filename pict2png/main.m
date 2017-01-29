@@ -49,7 +49,7 @@ int main(int argc, const char *argv[])
 		
 		NSBitmapImageRep *bitmap = [[NSBitmapImageRep alloc] initWithData:tiff];
 		
-		NSData *png = [bitmap representationUsingType:NSPNGFileType properties:nil];
+		NSData *png = [bitmap representationUsingType:NSPNGFileType properties:@{}];
 		
 		if (png.length == 0)
 		{
@@ -59,7 +59,7 @@ int main(int argc, const char *argv[])
 		}
 		
 		
-		if (![png writeToFile:@(argv[2]) atomically:NO])
+		if ([png writeToFile:@(argv[2]) atomically:NO] != YES)
 		{
 			fprintf(stderr, "Output failed.\n");
 			
